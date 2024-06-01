@@ -1,0 +1,202 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BPG Arial';
+}
+
+body{
+    background: #f5f6fa;
+}
+
+
+.wrapper .sidebar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+    text-align: center;
+    display: block;
+    padding: 13px 50px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+.tab button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #10558d;
+  color: white;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #10558d;
+    color: white;
+  }
+
+  #myInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+.fa-calendar-plus{
+  font-size: 20px;
+}
+
+#delete_btn{
+  width: 100%;
+  
+}
+
+#delete_btn:hover{
+  background-color: rgb(170, 83, 83);
+}
+
+#add_button{
+  width: 100px;
+  float:right;
+  margin:15px;
+}
+
+#add_button:hover{
+  background-color: #417aa8;
+}
+
+.tab i{
+  font-size: 22px;
+}
+
+#endday{
+  margin-top: 5%;
+}
+
+#get_endday{
+  width: 100%;
+  height: 50px;
+}
+
+#get_endday:hover{
+  background-color: #417aa8;
+}
+
+@media (min-width: 600px) { 
+  .tab {
+    width: 64%;
+    left: 36%;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .tab {
+    width: 68%;
+    left: 32%;
+  }
+ }
+
+
+@media (min-width: 1200px) { 
+  .tab {
+    width: 76%;
+    left: 25%;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .tab {
+    width: 80%;
+    left: 20%;
+  }
+ }
+
+
+@media (min-width: 1800px) {
+ .tab {
+    width: 84.3%;
+    left: 15.6%;
+  }
+ }

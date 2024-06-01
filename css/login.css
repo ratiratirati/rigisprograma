@@ -1,0 +1,60 @@
+*{
+    font-family: 'BPG Arial';
+    font-size: 16px;
+}
+
+.center input{
+    width: 30%;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 1%;
+    border: none;
+    border-bottom: 3px solid rgb(90, 90, 90);
+}
+
+.center input:focus {
+    outline: none;
+    border-bottom: 3px solid #008CBA;
+    transition: 0.5s;
+  }
+
+.center button{
+    width: 30%;
+    height: 50px;
+    margin-top: 1%;
+    background-color: white; 
+    color: black; 
+    border: 3px solid #008CBA;
+}
+
+.center button:hover{
+    background-color: #008CBA;
+    color: white;
+    transition: 0.5s;
+}
+
+.center {
+    margin-top: 15%;
+    text-align: center;
+  }
+
+  .msg{
+    margin-top: 3%;
+  }
+
+  .error{
+    margin-top: 3%;
+    color: red;
+  }
+
+  @media (min-width: 1200px) { 
+    .center input{
+      width: 35%;
+    }
+
+    .center button{
+      width: 35%;
+    }
+    
+  }
+  
